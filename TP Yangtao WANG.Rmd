@@ -27,6 +27,7 @@ We use the digital dataset from http://blog.rtwilson.com/john-snows-cholera-data
 library(maptools)
 library(sp)
 library(raster)
+
 death<-rgdal::readOGR("./data/Cholera_Deaths.shp")
 pump<-rgdal::readOGR("./data/Pumps.shp")
 map<-raster("./data/OSMap.tif")
@@ -140,6 +141,25 @@ As a conclusion, to better understand the true reason of the death, we need some
   
 \newpage
 #Annexe
+##Data reference 
+http://blog.rtwilson.com/john-snows-cholera-data-in-more-formats/
+
+##To install rgdal package
+We need to install an dependence for exmaple in Mac Os :
+```{bash eval=FALSE, include=TRUE}
+brew gdal 
+```
+In Ubuntu: 
+```{bash eval=FALSE, include=TRUE}
+sudo apt-get install gdal-bin proj-bin libgdal-dev libproj-dev
+```
+Here are some reference for installing the gdal : 
+
+1. https://gist.github.com/dncgst/111b74066eaea87c92cdc5211949cd1e
+
+2. https://stackoverflow.com/questions/15248815/rgdal-package-installation
+
+##Code
 ```{r eval=FALSE, include=TRUE}
 #Load data
 library(maptools)
