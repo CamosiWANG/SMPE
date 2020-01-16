@@ -1,4 +1,4 @@
-#Subject 3: The London cholera epidemic of 1854
+# Subject 3: The London cholera epidemic of 1854
 
 This project is SMPE practice. Here are 2 files and a directory. The TP_YangtaoWANG.pdf is the final report and the TP_YangtaoWANG.Rmd is the source of the report. The data directory contains the data for this TP. 
 
