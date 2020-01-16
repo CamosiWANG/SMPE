@@ -147,7 +147,7 @@ http://blog.rtwilson.com/john-snows-cholera-data-in-more-formats/
 ##To install rgdal package
 We need to install an dependence for exmaple in Mac Os :
 ```{bash eval=FALSE, include=TRUE}
-brew gdal 
+brew install gdal 
 ```
 In Ubuntu: 
 ```{bash eval=FALSE, include=TRUE}
